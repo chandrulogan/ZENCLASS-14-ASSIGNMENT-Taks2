@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    min-width: 100%;
+    overflow-x: hidden;
+}
+
+.outer{
+    margin: 10px;
+    border: 1px solid black;
+    padding: 40px 50px 40px 10px;
+}
+
+.main-header{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-header{
+    font-size: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-content{
+    margin: 10px;
+    border: 1px solid black;
+    padding: 100px 0px 400px 50px;
+}
+
+.image{
+    position: absolute;
+    display: flex;
+    justify-content: start;
+}
+
+.row1{
+    display: flex;
+    justify-content: end;
+}
